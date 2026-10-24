@@ -33,7 +33,7 @@ function handleSaveScore() {
     score : score
    };
    localStorage.setItem("highScores",JSON.stringify(newScore))
-   setName=("")
+   setName("")
    console.log("Score saved:", newScore); 
 }
   return (
