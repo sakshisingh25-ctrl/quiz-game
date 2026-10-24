@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+.Start {
+  height: 1300px;
+  width: 850px;
+  background-color: rgb(77, 74, 74);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+.Top {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(191, 201, 211);
+  height: 40px;
+  width: 100%;
+}
+
+.Top h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.deep{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.high{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color:white;
+  padding-bottom: 60px;
+}
+
+#load{
+  height: 20px;
+  width: 80%;
+}
+.work{
+  height: 20px;
+  width: 60px;
+  background-color: black;
+  color: white;
+}
+
+.branch{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.Technology,
+.Data,
+.Design,
+.Marketing {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.data{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.fulltime{
+  background-color:rgb(161, 171, 182);
+  height: 30px;
+  width: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.new{
+  color: white;
+  padding-left: 10px;
+  border: 0.5px solid slategray;
+}
+
+.icon{
+background-color: rgb(111, 111, 228);
+color: white;
+min-height: 30px;
+width: 100px;
+margin-left: 720px;
+margin-top: -30px;
+}
+.latest{
+  height: 800px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  border: 0.5px solid rgb(122, 133, 144);
+}
+
+#button{
+  margin-bottom: 10px;
+}
+
+.low{
+  margin-top: 20px;
+  border: 0.5px solid rgb(122, 133, 144);
+}
+.job-card{
+  background-color: white;
+  color: #222;
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.job-card h2{
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.job card p{
+  color:#555 ;
+  margin: 10px 0;
+}
